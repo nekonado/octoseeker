@@ -6,7 +6,21 @@
     <link rel="stylesheet" href="popup.css" />
   </head>
   <body>
-    <img src="../img/octoseeker.png" alt="logo" />
-    <h1>Hello, octoseeker!</h1>
+    <div class="title_container">
+      <img src="../img/octoseeker.png" alt="logo" />
+      <h1>Hello, octoseeker!</h1>
+    </div>
+    <div class="input_container">
+      <div >
+        <label for="base">From:</label>
+        <input type="text" id="base" />
+      </div>
+      <div>
+        <label for="head">To:</label>
+        <input type="text" id="head" />
+      </div>
+      <button id="search">Search</button>
+    </div>
+    <script src="./popup.js"></script>
   </body>
 </html>
