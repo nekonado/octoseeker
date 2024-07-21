@@ -1,0 +1,23 @@
+{
+  "name": "octoseeker",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nekonado/octoseeker.git"
+  },
+  "author": "nekonadocat@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nekonado/octoseeker/issues"
+  },
+  "homepage": "https://github.com/nekonado/octoseeker#readme",
+  "devDependencies": {
+    "@types/chrome": "^0.0.268",
+    "typescript": "^5.5.3"
+  }
+}

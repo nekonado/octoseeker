@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "version": "0.1.0",
+  "name": "octoseeker",
+  "description": "GitHubでPull Request, Issueを検索するChrome拡張機能",
+  "author": {
+    "email": "nekonadocat@gmail.com"
+  },
+  "icons": {
+    "16": "img/logo16.png",
+    "48": "img/logo48.png",
+    "128": "img/logo128.png"
+  },
+  "action": {
+    "default_popup": "src/popup.html",
+    "default_icon": "img/logo128.png"
+  }
+}
